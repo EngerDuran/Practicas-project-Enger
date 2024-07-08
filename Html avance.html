@@ -23,7 +23,7 @@
 
   <style>
   h1 {
-    color: rgb(195 8 8);
+    color: rgb(0, 0, 0);
     border-width: 3px;
     border-style: solid;
     border-color: black;
@@ -68,18 +68,42 @@
    border: white; 
   }
 
-  .encabezado {
+  .encabezado .bold {
     font-size: 35px;
   } 
-  
+
+  li:first-child {
+    color: rgb(3, 16, 255);
+  }
+
+  li:last-child{
+    color: yellow;
+  }
+article {
+  font-size: 20px;
+}
+article >p {
+  color: oklch(39.02% 0.0851 261.19);
+  color: rgb(225, 225, 229);
+}
+
+.container {
+  border: solid green;
+  width: 650px;
+  height: 40px;
+
+}
+
   </style>
 
 </head>
 
  <body>
   <header>
-   <h1 class="encabezado">⬇️⬇️Bienvenidos al Portfolio de Enger👨🏻  ⬇️⬇️</h1>
-   <iframe style="width: 100%; aspect-ratio: 16/9;"
+  <center>
+    <h1 class="container">⬇️⬇️Bienvenidos al Portfolio de Enger⬇️⬇️</h1>
+  </center>
+   <iframe style="width: 100%; aspect-ratio: 16/9;" 
   width="560"
    height="315"
    src="https://www.ferrari.com/en-EN/auto/genuine/gallery"
@@ -127,10 +151,18 @@
 
 
 <a download href="Images/Ferrari copy.jpeg">
- <img id="Foto Ferraris" width="200" height="200" title="Foto del logo Ferrari"  
-src="Images/Ferrari copy.jpeg"
+ <img id="Foto Ferraris" width="200" height="200" title="Foto del logo Ferrari"
+ src="Images/Ferrari copy.jpeg"
 alt="Foto del logo de ferrari">
 </a>
+
+<article><P>
+  A continuación estaré respondiendo preguntas frecuentes, para aclarar cualquier tipo de duda:
+</P>
+<footer>
+<p> <strong> Mira aquí abajo⬇️</strong></p>
+</article>
+</footer>
 
 <section>
 <h2>Preguntas Frecuentes:</h2> 
